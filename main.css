@@ -1,0 +1,57 @@
+.bg{
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #ffcbab);
+    animation: changeBackground 10s infinite linear;
+    
+}
+@keyframes changeBackground {
+    0% {
+      background: linear-gradient(to right, #ff7e5f, #feb47b, #ffcbab);
+    }
+    50% {
+      background: linear-gradient(to right, #aed9e0, #93ced3, #79c2c6);
+    }
+    100% {
+      background: linear-gradient(to right, #ff7e5f, #feb47b, #ffcbab);
+    }
+  }
+.location-icon{
+    color:#FFF;
+    text-align: right;
+    margin-top:20px;
+}
+.location-icon i{
+    font-size:30px;
+}
+p{
+    color:#6e21ff;
+    text-align: center;
+}
+#current-time{
+    font-size: 80px;
+    margin-bottom: 60px;
+}
+#ana{
+    font-size: 40px;
+}
+.location-icon p{
+    margin:0px;
+    padding: 0px;
+}
+.location p:nth-child(2){
+    font-size: 30px;
+    margin-top:-20px;
+}
+
+.location p:nth-child(3){
+    margin-top:-20px;
+}
+
+.time-lef-text{
+    font-size: 35px;
+}
+
+#time-left{
+    font-size: 35px;
+    margin-top:-25px;
+    margin-bottom: 50px;
+}
