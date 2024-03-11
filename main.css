@@ -1,7 +1,7 @@
 .bg{
     background: linear-gradient(to right, #ff7e5f, #feb47b, #ffcbab);
     animation: changeBackground 10s infinite linear;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 @keyframes changeBackground {
     0% {
