@@ -10,7 +10,6 @@ function GetTime(){
 
     document.getElementById('current-time').innerText=hour+" : "+minute;
 }
-
 function GetCountry(){
     return fetch("https://ezanvakti.herokuapp.com/ulkeler")
            .then(response=>response.json())
